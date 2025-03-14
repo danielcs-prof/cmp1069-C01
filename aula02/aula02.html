@@ -7,11 +7,12 @@
 </head>
 <body>
 
-    <h2>Calculadora</h2>
-    <p id="calculadora">
-        Soma: 
+    <hr>
+    <h2>Calculadora Aritmética</h2>
+    <p id="aritmetica">
+        Aritmética:
         <input type="text" id="x1" value="0">
-        <select  id="operador" >
+        <select  id="opAritmetico" >
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="*">*</option>
@@ -19,6 +20,20 @@
         </select>
         <input type="text" id="x2" value="0">
         <span id="resultado"></span>
+    </p>
+    
+    <hr>
+
+    <h2>Calculadora Logica</h2>
+    <p id="logica">
+        Lógica: 
+        <input type="text" id="l1" value="0">
+        <select  id="opLogico" >
+            <option value="&&">and</option>
+            <option value="||">or</option>
+        </select>
+        <input type="text" id="l2" value="0">
+        <span id="resultadoLogico"></span>
     </p>
     <script src="./aula02.js"></script>
 </body>
